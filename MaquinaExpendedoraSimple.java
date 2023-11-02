@@ -30,6 +30,12 @@ public class MaquinaExpendedoraSimple {
         estacionOrigen = "Leon";
         estacionDestino = destino;
     }
+    /**
+     * Cambiar el precio del billete al valot introducido como parametro
+     */
+    public void setPrecioBillete(int cambioPrecio){
+        precioBillete=cambioPrecio;
+    }
 
     /**
      * Devuelve el precio del billete
